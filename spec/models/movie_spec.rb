@@ -149,7 +149,7 @@ describe 'Movie' do
       end
 
       it 'can destroy all items at once' do
-        can_destroy_all_items_at_once
+        
         expect(Movie.all.size).to eq(0)
       end
     end
